@@ -1,25 +1,23 @@
 module ModuleA
 
-export # Structs
-    ParameterA,
-    # Functions
-    name, 
+export ParameterA,
+    name,
     value,
     double
 
-    """ Abstract supertype for....
+""" Abstract supertype for....
 
-    The following methods are provided by the interface:
+The following methods are provided by the interface:
 
-    - `name(p)` -- returns the parameter's `p` name. 
+- `name(p)` -- returns the parameter's `p` name. 
 
-    The following methods must be provided by the user (hard contracts):
-    - `value(p)` -- returns the parameter's `p` value. 
+The following methods must be provided by the user (hard contracts):
+- `value(p)` -- returns the parameter's `p` value. 
 
-    The following methods might be provided by the user (soft contracts):
-    - `double(p)` -- double the parameter's `p` value. 
+The following methods might be provided by the user (soft contracts):
+- `double(p)` -- double the parameter's `p` value. 
 
-    """
+"""
 abstract type AbstractParameter end
 
 "Returns the paramter name "
