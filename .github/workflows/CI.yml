@@ -55,6 +55,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using MshReader
-            DocMeta.setdocmeta!(MshReader, :DocTestSetup, :(using MshReader); recursive=true)
-            doctest(MshReader)'
+            using JuliaPkg_myTemplate
+            DocMeta.setdocmeta!(JuliaPkg_myTemplate, :DocTestSetup, :(using JuliaPkg_myTemplate); recursive=true)
+            doctest(JuliaPkg_myTemplate)'
