@@ -1,5 +1,9 @@
 # JuliaPkg_myTemplate
 
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://mvanzulli.github.io/JuliaPkg_myTemplate.jl/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://mvanzulli.github.io/JuliaPkg_myTemplate.jl/dev/)
+[![Build Status](https://github.com/mvanzulli/JuliaPkg_myTemplate.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/mvanzulli/JuliaPkg_myTemplate.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/mvanzulli/JuliaPkg_myTemplate.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/mvanzulli/JuliaPkg_myTemplate.jl)
 
 
 ## Table of contents
