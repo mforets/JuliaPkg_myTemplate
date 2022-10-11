@@ -22,4 +22,5 @@ makedocs(;
 deploydocs(;
     repo="github.com/mvanzulli/JuliaPkg_myTemplate.jl",
     devbranch="main",
+    push_preview=true
 )
